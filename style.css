@@ -23,7 +23,12 @@ html{
 .logo {
   width: 100%;
   padding: 1rem;
-  justify-content: center;
+  justify-content: center; 
+   transition: width 1s;
+}
+.logo:hover{
+  width: 9rem;
+
 }
 .btn1 {
   background-color: white;
